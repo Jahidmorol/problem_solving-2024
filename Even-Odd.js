@@ -6,6 +6,7 @@ const evenOrOdd = (number) => {
   } else {
     return "Odd";
   }
+  //return number % 2 === 0 ? "Even" : "Odd";
 };
 
 console.log(evenOrOdd(2));
