@@ -38,22 +38,22 @@ const allSheep = [
 ];
 
 // case 1
-// const countSheep = (allSheep) => {
-//   return allSheep.filter((s) => s === true).length;
-// };
+const countSheep = (allSheep) => {
+  return allSheep.filter((s) => s === true).length;
+};
 
 // case 2
 // initial value of zero
 // Loop through the array
 // Check if the sheep === true, increase the initial value + 1
 
-const countSheep = (allSheep) => {
-  let initial = 0;
-  allSheep.map((s) => {
-    if (s === true) initial++;
-  });
+// const countSheep = (allSheep) => {
+//   let initial = 0;
+//   allSheep.map((s) => {
+//     if (s === true) initial++;
+//   });
 
-  return initial;
-};
+//   return initial;
+// };
 
 console.log(countSheep(allSheep));
